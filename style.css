@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+main{
+
+    width: 1440px;
+    margin: 0 auto ;
+}
+
 body, html {
   height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -84,9 +90,10 @@ button:hover {
 /* 🔽 New Section: See It in Action */
 .preview-section {
   display: flex;
+  width: 1140;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 60px;
+  padding: 130px 150px;
   background-color: #f7f9fc;
   gap: 40px;
   flex-wrap: wrap;
@@ -129,5 +136,40 @@ button:hover {
 .preview-image img {
   width: 100%;
   max-width: 420px;
+  border-radius: 48px;
+}
+
+.stats-section {
+  background-color: #e9eafe;
+  padding: 60px 40px;
+  margin: 40px auto;
   border-radius: 20px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.stats-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.stat-box h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4f46e5;
+}
+
+.stat-box p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 8px;
 }
